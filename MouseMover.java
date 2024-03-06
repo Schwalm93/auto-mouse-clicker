@@ -8,7 +8,7 @@ public class MouseMover {
         try {
             Robot robot = new Robot();
             // Definiere das Zeitintervall in Millisekunden (z.B. 5000 für 5 Sekunden)
-            int interval = 5000; // X Sekunden * 1000
+            int interval = 60000; // X Sekunden * 1000
 
             while (true) {
                 // Aktuelle Position der Maus erhalten
@@ -17,7 +17,7 @@ public class MouseMover {
                 int currentY = mouseLocation.y;
 
                 // Bewege die Maus um 1 Pixel diagonal
-                robot.mouseMove(currentX + 1, currentY + 1);
+                robot.mouseMove(currentX + 10, currentY + 10);
 
                 // Warte für das definierte Intervall
                 Thread.sleep(interval);

@@ -1,4 +1,4 @@
-# auto-mouse-clicker
+# Description
 Automatic mouse clicker to ensure that the pc does not switch into power saving mode
 
 # create jar file
